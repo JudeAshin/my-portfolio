@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Moon, Sun, Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Calendar, Code, Database, Server, Globe } from 'lucide-react';
 import ContactForm from './components/ContactForm';
 import ProjectCard from './components/ProjectCard';
