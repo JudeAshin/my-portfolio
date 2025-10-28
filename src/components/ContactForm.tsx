@@ -37,10 +37,10 @@ const ContactForm: React.FC<ContactFormProps> = ({ isDarkMode }) => {
       // Replace these with your EmailJS credentials
       // Sign up at https://www.emailjs.com/ to get these values
       await emailjs.sendForm(
-        'service_sclh0cv', // Replace with your EmailJS service ID
-        'template_b9al3cp', // Replace with your EmailJS template ID
+        'service_v3xpw9d', // Replace with your EmailJS service ID
+        'template_zi2jv21', // Replace with your EmailJS template ID
         form.current,
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        'lkXElqZwYjiDje1qt' // Replace with your EmailJS public key
       );
       
       setSubmitStatus('success');
@@ -160,9 +160,9 @@ const ContactForm: React.FC<ContactFormProps> = ({ isDarkMode }) => {
         isDarkMode ? 'bg-slate-700/50 border-slate-600' : 'bg-gray-50 border-gray-200'
       }`}>
         <p className={`text-sm font-medium ${isDarkMode ? 'text-slate-300' : 'text-slate-700'}`}>
-          <strong>Note:</strong> To enable the contact form, you'll need to sign up for a free EmailJS account and 
-          update the service credentials in the ContactForm component. Until then, please reach out to <strong>Rajesh Kumar</strong> directly via email or phone.
-        </p>
+          <strong>Hint:</strong> Fill out the form with your details and message — I’ll get back to you as soon as possible.  
+          Make sure to include a valid email so I can reply quickly.
+          </p>
       </div>
     </div>
   );

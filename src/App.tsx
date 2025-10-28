@@ -152,7 +152,7 @@ function App() {
               </div>
               <div className="flex items-center gap-2 text-sm">
                 <Calendar className="w-4 h-4 text-emerald-500" />
-                <span className="font-medium">2+ Years Experience</span>
+                <span className="font-medium">3 Years Experience</span>
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className={`text-lg mb-6 leading-relaxed ${isDarkMode ? 'text-slate-300' : 'text-slate-700'}`}>
-                I'm <strong className="text-blue-500">Jude Ashin</strong>, a dedicated Senior Backend Developer with 2+ years of focused experience building scalable, 
+                I'm <strong className="text-blue-500">Jude Ashin</strong>, a dedicated Senior Backend Developer with 3 years of focused experience building scalable, 
                 high-performance applications. My expertise lies in architecting robust backend systems 
                 using Node.js, NestJS, and Express.js, coupled with comprehensive database management 
                 across MySQL, SQL, and MongoDB.
@@ -196,7 +196,7 @@ function App() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Years of Experience</span>
-                  <span className="font-bold text-2xl text-blue-500">2+</span>
+                  <span className="font-bold text-2xl text-blue-500">3</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="font-medium">Projects Completed</span>
@@ -231,10 +231,10 @@ function App() {
             <ExperienceCard
               title="Senior Backend Developer"
               company="Inox Arabia Technical Service LLC Dubai"
-              period="February 2025 - Present"
+              period="February 2025 - October 2025"
               location="Dubai, UAE"
               description="Currently leading backend development initiatives for enterprise-scale applications. Architecting robust microservices using Node.js and ExpressJS, optimizing database performance across MongoDB and MySQL systems. Working on scalable cloud infrastructure and implementing best practices for code quality and deployment processes. Focusing on building high-performance APIs and database optimization."
-              technologies={['Node.js', 'Express.js', 'MongoDB', 'MySQL', 'Unity']}
+              technologies={['Node.js', 'Express.js', 'MongoDB', 'MySQL', 'Docker', 'AWS (EC2, S3, RDS, Lambda, CloudWatch, CloudFormation)']}
               isDarkMode={isDarkMode}
             />
             <ExperienceCard
@@ -243,7 +243,7 @@ function App() {
               period="July 2023 - December 2024"
               location="Chennai, Tamil Nadu, India"
               description="Started my career journey as a full-stack developer, initially focusing on Angular frontend development before transitioning to backend specialization with NestJS and Express.js. Built responsive, dynamic user interfaces and evolved into architecting scalable, secure API systems. Worked on various business applications, implemented JWT-based authentication systems, optimized SQL queries, and integrated real-time notification systems. Gained extensive experience in both frontend and backend development."
-              technologies={['Angular', 'Node.js', 'NestJS', 'MySQL', 'MongoDB', 'TypeScript']}
+              technologies={['Angular', 'Node.js', 'NestJS', 'MySQL', 'MongoDB', 'TypeScript', 'Docker', 'Postman', 'Linux', 'Git', 'AWS(S3, EC2, RDS)']}
               isDarkMode={isDarkMode}
             />
           </div>
@@ -272,7 +272,7 @@ function App() {
             <SkillCard
               icon={<Database className="w-8 h-8" />}
               title="Database Management"
-              skills={['MySQL', 'MongoDB', 'PostgreSQL', 'Redis', 'Database Design', 'Query Optimization']}
+              skills={['MySQL', 'MongoDB', 'PostgreSQL', 'Redis', 'TypeORM', 'Sequelize', 'Mongoose']}
               isDarkMode={isDarkMode}
             />
             <SkillCard
@@ -284,13 +284,13 @@ function App() {
             <SkillCard
               icon={<Code className="w-8 h-8" />}
               title="Programming Languages"
-              skills={['JavaScript', 'TypeScript', 'Python', 'SQL', 'NoSQL', 'JSON']}
+              skills={['JavaScript', 'TypeScript', 'Python', 'SQL', 'NoSQL']}
               isDarkMode={isDarkMode}
             />
             <SkillCard
               icon={<Server className="w-8 h-8" />}
               title="DevOps & Tools"
-              skills={['Git', 'Docker', 'AWS', 'Linux', 'Postman', 'VS Code']}
+              skills={['Git', 'Docker', 'AWS', 'Linux', 'CI/CD','Redis', 'ElasticSearch']}
               isDarkMode={isDarkMode}
             />
             <SkillCard
@@ -440,7 +440,7 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className={`py-20 px-6 relative ${isDarkMode ? 'bg-slate-800/50' : 'bg-gradient-to-br from-blue-50 to-indigo-100'}`}>
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 pointer-events-none">
           <div className={`w-full h-full ${isDarkMode ? 'grid-pattern-dark' : 'grid-pattern'}`}></div>
           {/* Communication symbols */}
           <div className="absolute top-20 left-20 text-6xl opacity-5 text-blue-500 transform rotate-12">📧</div>
